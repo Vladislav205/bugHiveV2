@@ -1,0 +1,113 @@
+.navbar__1{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #040214;
+    border-bottom:2px solid  rgba(134, 134, 137, 1);
+}
+
+.Name_Bughive{
+    background: linear-gradient(90deg, #F5F5F5 45.2%, #F8CC33 49.13%);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+.navbar__1 *{
+    margin-right:20px ;
+    
+    
+}
+.navbar__1 button{
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    
+    font-size: 16px;
+    line-height: 100.02%;
+    
+}
+.left__nav{
+    width: 250px;
+    margin-left:20px ;
+    
+    display: flex;
+    align-items: center
+}
+.nav__logo{
+    
+    width: 30px;
+    height: 30px;
+    
+}
+.right__nav{
+    margin-right:20px ;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+.nav-buttons{
+
+
+    position: relative;
+    background-color: #040214;;
+    border: none;
+    color: #FFFFFF;
+}
+
+.nav-buttons:active::after {
+  
+}
+
+
+.nav-buttons__item:active::after
+{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #F8CC33;
+}
+
+button{
+    background-color: transparent;
+  border: none;
+  color: white;
+}
+.active{
+    
+        color: #F8CC33;
+        
+     
+        background-color: none;
+        border-bottom: 3px solid #F8CC33;
+  display: inline-block; /* необходимо для установления ширины */
+  padding-bottom: 15px;
+  margin-top: 15px;
+        
+       
+}
+
+.Create_button{
+    background-color: #F8CC33;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Roboto';
+font-style: normal;
+
+font-size: 16px;
+line-height: 100.02%;
+font-weight: bold;
+color: #040214;
+}
+.Name_Bughive{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+}

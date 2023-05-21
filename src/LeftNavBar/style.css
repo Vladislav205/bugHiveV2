@@ -1,0 +1,60 @@
+.left__menu{
+    top: 51px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 250px;
+    min-height: 100%;
+    padding: 20px;
+    
+    background-color: #040214;
+    border-right:2px solid  rgba(134, 134, 137, 1);
+    
+    
+}
+
+.left__menu button{
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+    background-color: #040214;;
+   
+    line-height: 14px;
+    color: #FFFFFF;
+    justify-content: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.left__menuIcon{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    color: #F8CC33;
+}
+
+.left__menu button:hover{
+    cursor: pointer;
+    color: #F8CC33;
+    transition: transform 1s ease;
+    transform: scale(1.15);
+}
+
+.active{
+    
+    color: #F8CC33;
+    background-color: none;
+    border-bottom: 3px solid #F8CC33;
+    display: inline-block; /* необходимо для установления ширины */
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+.non-active:active{
+    
+
+    color: #F8CC33;
+    border-bottom:5px solid #F8CC33;
+}

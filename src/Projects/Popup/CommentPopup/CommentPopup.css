@@ -1,0 +1,16 @@
+.scrollable-content {
+    overflow-y: auto;
+    background: #141828;
+  }
+
+  .modal_com{
+    width:70%;
+    height:100%;
+  }
+
+  .modal-content_comment{
+    background-color: #141828;
+    
+    /* padding: 20px; */
+    border-radius: 8px;
+  }

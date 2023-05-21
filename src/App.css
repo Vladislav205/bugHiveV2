@@ -1,0 +1,12 @@
+
+
+.wrap{
+    min-height: 100vh;
+  
+}
+
+.container {
+    max-width: 1880px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

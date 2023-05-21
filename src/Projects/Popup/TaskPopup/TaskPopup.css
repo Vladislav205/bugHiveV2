@@ -1,0 +1,16 @@
+.scrollable-content {
+    overflow-y: auto;
+    background: #141828;
+  }
+
+  .modal_task{
+    width:70%;
+    height:50%;
+  }
+
+  .modal-content_task{
+    background-color: #141828;
+    
+    /* padding: 20px; */
+    border-radius: 8px;
+  }
